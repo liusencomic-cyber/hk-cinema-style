@@ -1,10 +1,10 @@
 #!/bin/bash
 # HK Cinema Style 一键安装
-# 用法: curl -fsSL https://raw.githubusercontent.com/liusencomic-cyber/hk-cinema-style/main/install.sh | bash
+# 用法: curl -fsSL https://raw.githubusercontent.com/senlib/hk-cinema-style/main/install.sh | bash
 #   或: ./install.sh [目标技能目录]
 set -e
 
-REPO_ZIP="https://github.com/liusencomic-cyber/hk-cinema-style/archive/refs/heads/main.zip"
+REPO_ZIP="https://github.com/senlib/hk-cinema-style/archive/refs/heads/main.zip"
 NAME="hk-cinema-style"
 
 echo "🎬 安装 HK Cinema Style（港片导演视觉风格参考技能）"

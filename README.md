@@ -35,15 +35,15 @@
 **方式 ① 一键安装**（macOS/Linux，自动探测 Hermes/Claude/Codex 技能目录，装完直接打印给 Agent 的接入口令）：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/liusencomic-cyber/hk-cinema-style/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/senlib/hk-cinema-style/main/install.sh | bash
 ```
 
-**方式 ② 下载 zip**（不用 git、不懂命令行也行）：[下载 hk-cinema-style-main.zip](https://github.com/liusencomic-cyber/hk-cinema-style/archive/refs/heads/main.zip)，解压后把整个文件夹放进下表的技能目录；或直接把 `SKILL.md` 的路径告诉你的 Agent。
+**方式 ② 下载 zip**（不用 git、不懂命令行也行）：[下载 hk-cinema-style-main.zip](https://github.com/senlib/hk-cinema-style/archive/refs/heads/main.zip)，解压后把整个文件夹放进下表的技能目录；或直接把 `SKILL.md` 的路径告诉你的 Agent。
 
 **方式 ③ git**：
 
 ```bash
-git clone https://github.com/liusencomic-cyber/hk-cinema-style.git
+git clone https://github.com/senlib/hk-cinema-style.git
 ```
 
 按你的 Agent 宿主放进技能目录（任选其一）：

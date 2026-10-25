@@ -80,6 +80,7 @@ git clone https://github.com/liusencomic-cyber/hk-cinema-style.git
 ## 实测记录（诚实声明）
 
 - ✅ **图片改风格量产实测**：Seedream 5.0 Pro（火山方舟 `doubao-seedream-5.0-pro`，Agent Plan 端点，interactive_edit 模式）——文字保护与产品主体一致性表现达标，本库全部海报案例由其产出
+- ✅ **Seedream 5.0 Flash**（`doubao-seedream-5-0-flash`）t2i/i2i 实测通过——t2i 约 13s、i2i 约 9s（Pro 约 90s），风格还原到位，适合快速打样/试构图；正式量产仍建议 Pro
 - ❌ **对比测试未采用**：ChatGPT 图像模型（gpt-image-2，经 Codex CLI）——实测风格化效果不如 Seedream 5.0 Pro
 - ⏳ **视频模式**（Seedance 等）尚未实测，运动语法与视频流程属理论迁移，待用后修正
 

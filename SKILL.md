@@ -1,7 +1,7 @@
 ---
 name: hk-cinema-style
 description: Use when generating or restyling images OR videos in classic golden-age Hong Kong cinema looks — Wong Kar-wai, Johnnie To, Tsui Hark, Stephen Chow, John Woo, etc. A visual-style reference skill: covers text-to-image / image-to-image / text-to-video / image-to-video, targeted local edits, and series batch consistency. Style-only scope — never alters the user's creative intent (subject, composition, copy, narrative). Provides frozen per-director grammars (palette/light/technique/motion), a shared HK-cinema default, per-shot-type sentence patterns, selection/risk tables, and QA workflows.
-version: 1.3.0
+version: 1.3.1
 license: MIT
 metadata:
   hermes:
@@ -60,8 +60,8 @@ metadata:
    ```
    - `--watermark false` 显式关闭"AI生成"角标；`--interactive_edit true` 精准编辑，只改色调光影不重绘形状；大图先转 JPEG 再 base64（PNG 内联会超命令行长度）。
 5. 提示词结构（两段制）：
-   - **美学目标**（导演阐述 + 力度克制声明）
-   - **允许改动 + 严格保护清单**：允许改曝光/光比/光影/烟雾/颗粒；保护逐字文字（含颜色字体）、涂装颜色分布、几何结构、构图。品牌海报收尾加"改完仍是印刷级海报，不是被滤镜洗过的照片"。
+   - **美学目标**（导演阐述 + 力度克制声明）：必须显式调用该导演语法的「手法元素」（至少 1-2 个氛围元素入场——雾/体积光/光晕/雨丝/颗粒/柔焦，只调色=风格没进去=不合格）、「肤色」行（肤质处理按导演来：王家卫暧昧朦胧≠杜琪峰冷灰锐利≠许鞍华完全真实）和「焦点」行（景深/柔焦/拖影按导演来：王家卫浅景深分离+动体拖影≠杜琪峰深景深全锐≠陈可辛柔焦回忆）
+   - **允许改动 + 严格保护清单**：允许改曝光/光比/光影/烟雾/颗粒/柔焦/肤质质感；保护只锁内容与结构——逐字文字（含颜色字体）、人物身份与面容特征、姿态、产品涂装与几何结构、构图。**禁止把"肤质不变/纹理不变"写进保护**（质感归风格管）；禁止新增实体物件（动实体=动创意）。品牌海报收尾加"改完仍是印刷级海报，不是被滤镜洗过的照片"。
 6. 验收：全图氛围 + 全分辨率裁切逐字核对文字、逐项核对产品细节。文字出错 → 把正确写法逐字+颜色写进保护清单重跑。
 7. 交付前核对文件确实写入目标位置（哈希一致）。
 

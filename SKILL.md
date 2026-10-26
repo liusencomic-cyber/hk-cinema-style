@@ -1,7 +1,7 @@
 ---
 name: hk-cinema-style
 description: Use when generating or restyling images OR videos in classic golden-age Hong Kong cinema looks — Wong Kar-wai, Johnnie To, Tsui Hark, Stephen Chow, John Woo, etc. A visual-style reference skill: covers text-to-image / image-to-image / text-to-video / image-to-video, targeted local edits, and series batch consistency. Style-only scope — never alters the user's creative intent (subject, composition, copy, narrative). Provides frozen per-director grammars (palette/light/technique/motion), a shared HK-cinema default, per-shot-type sentence patterns, selection/risk tables, and QA workflows.
-version: 1.4.0
+version: 1.4.1
 license: MIT
 metadata:
   hermes:

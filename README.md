@@ -30,6 +30,8 @@
 
 ![showcase](examples/showcase.jpg)
 
+素材说明：底图与全部风格化图均为 AI 生成（Seedream 5.0 Pro/Flash），无真人肖像与第三方版权素材；示例图同本仓库 MIT 许可。
+
 ## 安装
 
 **方式 ① 一键安装**（macOS/Linux，自动探测 Hermes/Claude/Codex 技能目录，装完直接打印给 Agent 的接入口令）：
@@ -52,7 +54,7 @@ git clone https://github.com/senlib/hk-cinema-style.git
 |---|---|
 | Hermes Agent | `~/.hermes/skills/hk-cinema-style/` |
 | Claude Code | `~/.claude/skills/hk-cinema-style/`（全局）或项目内 `.claude/skills/` |
-| Codex | `~/.codex/skills/hk-cinema-style/` 或项目内 `.agents/skills/` |
+| Codex | `~/.agents/skills/hk-cinema-style/`（当前官方路径；旧版文档的 `~/.codex/skills` 以你所用版本官方说明为准） |
 | 其他 Agent | 目录放哪都行——把 `SKILL.md` 的路径告诉它，或直接让它读仓库 |
 
 无需依赖、无需构建：技能 = `SKILL.md`（流程纪律）+ `references/hk-director-styles.md`（风格库）两个文件。生成能力由你环境里的生图/生视频模型提供（见「使用」）。
